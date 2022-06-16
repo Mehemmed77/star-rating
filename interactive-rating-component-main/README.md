@@ -5,7 +5,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 ## Table of contents
 
 - [Overview]
-  - [The Challenge]("solution" folder)
+  - [The Challenge](index.html)
   - [Screenshot]("screenshots" folder)
   - [Links](#links)
 - [My process](#my-process)
@@ -38,7 +38,6 @@ Users should be able to:
 - [HTML5]
 - [CSS]
 - Mainly [Flexbox]
-- [] 
 - @media queries
 - [VanillaJS]
 - [Events]
