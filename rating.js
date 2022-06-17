@@ -16,13 +16,12 @@ const selectedRating = (param) => {
 
     previous_rating = current_rating
     current_rating = rating
-
-    console.log(previous_rating,current_rating)
     
     for(i of ratings){
 
         if(previous_rating!=undefined && previous_rating==current_rating){
             i.style = 'background-color: hsl(217, 12%, 23%);'
+            submit_button.removeAttribute('disabled')
         }
 
         else{
