@@ -60,5 +60,4 @@ i couldn't figure out a way to do hover and click (i mean effects) together with
 
 ### Feedback From @LozPilafas
 
-users can press submit button without actually selecting rating and this was issue that needed to be fixed! thanks @LozPilafas;Also i added feature that you can unselect the 
-rating you've selected which is good thing i think.HAVE FUN! 
+users can press submit button without actually selecting rating and this was issue that needed to be fixed! thanks @LozPilafas;

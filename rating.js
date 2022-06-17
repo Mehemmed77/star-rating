@@ -5,7 +5,7 @@ let active_states = document.getElementsByClassName('active-states')[0]
 let thank_you_div = document.getElementsByClassName('thank-you')[0]
 let number = document.getElementById('number')
 let rating;
-let submit_button = document.getElementsByClassName('btn')[0]
+let submit_button = document.getElementById('submit-button')
 
 let previous_rating;
 let current_rating;
@@ -13,24 +13,14 @@ let current_rating;
 const selectedRating = (param) => {
     rating = param.innerHTML
     submit_button.removeAttribute('disabled')
-
-    previous_rating = current_rating
-    current_rating = rating
     
     for(i of ratings){
-
-        if(previous_rating!=undefined && previous_rating==current_rating){
-            i.style = 'background-color: hsl(217, 12%, 23%);'
-            submit_button.removeAttribute('disabled')
+        if(i==param){
+            i.style = 'background-color:hsl(217, 12%, 63%);'
         }
-
+        
         else{
-            if(i==param){
-                i.style = 'background-color:hsl(217, 12%, 63%);'
-            }
-            else{
-                i.style = 'background-color: hsl(217, 12%, 23%);'
-            }
+            i.style = 'background-color: hsl(217, 12%, 23%);'
         }
     }
 }
