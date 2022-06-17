@@ -58,4 +58,7 @@ onmouseleave='someotherotherfunction()'></div>
 
 i couldn't figure out a way to do hover and click (i mean effects) together with only css (ofc i know :hover pseudo class) if someone has done it i would like to know thanks!
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+### Feedback From @LozPilafas
+
+users can press submit button without actually selecting rating and this was issue that needed to be fixed! thanks @LozPilafas;Also i added feature that you can unselect the 
+rating you've selected which is good thing i think.HAVE FUN! 
